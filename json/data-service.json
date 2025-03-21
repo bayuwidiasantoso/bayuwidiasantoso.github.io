@@ -1,0 +1,23 @@
+[
+  {
+    "title": "WEB DEVELOPMENT",
+    "description": "Build a web-based application using PHP with the Laravel or CodeIgniter framework.",
+    "icon_white": "/assets/img/icon-graphics-white.svg",
+    "icon_black": "/assets/img/icon-graphics-black.svg",
+    "alt": "Graphic Design icon"
+  },
+  {
+    "title": "Mobile Development",
+    "description": "Build native mobile applications using the Java Mobile platform and the native Java programming language.",
+    "icon_white": "/assets/img/icon-mobile-white.svg",
+    "icon_black": "/assets/img/icon-mobile-black.svg",
+    "alt": "Mobile Application icon"
+  },
+  {
+    "title": "Restful API",
+    "description": "Developing RESTful APIs using frameworks such as Lumen, Golang, NodeJs, .NET, Python, and Spring Boot to handle data on the frontend side.",
+    "icon_white": "/assets/img/icon-development-white.svg",
+    "icon_black": "/assets/img/icon-development-black.svg",
+    "alt": "development icon"
+  }
+]

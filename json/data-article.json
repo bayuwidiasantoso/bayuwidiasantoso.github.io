@@ -1,0 +1,26 @@
+[
+  {
+    "link": "/assets/img/document/node expressjs kafka.pdf",
+    "target": "_blank",
+    "bgImage": "/assets/img/write/kafka-node.PNG",
+    "buttonText": "Read More",
+    "title": "What is Apache Kafka?",
+    "description": "Apache Kafka is a distributed streaming platform that can process data streams in real time..."
+  },
+  {
+    "link": "https://gitlab.com/code-research1/rabbitmq/go-gin-rabbitmq",
+    "target": "_blank",
+    "bgImage": "/assets/img/write/rabbitmq-golang.PNG",
+    "buttonText": "Download",
+    "title": "Message Broker",
+    "description": "RabbitMQ is messaging middleware software that functions to send and receive messages..."
+  },
+  {
+    "link": "/assets/img/document/go gin kafka.pdf",
+    "target": "",
+    "bgImage": "/assets/img/write/kafka-golang.PNG",
+    "buttonText": "Read More",
+    "title": "Golang X Kafka",
+    "description": "In this tutorial, we will be introduced to Kafka, which acts as a message broker. Kafka and Zookeeper will run....."
+  }
+]

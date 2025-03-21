@@ -1,0 +1,78 @@
+[
+    {
+      "link": "https://gitlab.com/code-research1/go-fiber-clean-architecture",
+      "image": "/assets/img/portofolio/go-fiber.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/go-gin-clean-architecture",
+      "image": "/assets/img/portofolio/go-gin.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/example-api-nodejs",
+      "image": "/assets/img/portofolio/node-typescript.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/lumen10-api-restful",
+      "image": "/assets/img/portofolio/lumen.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/example-api-flask",
+      "image": "/assets/img/portofolio/python-flask.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/example-api-django",
+      "image": "/assets/img/portofolio/python-django.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/example-api-express",
+      "image": "/assets/img/portofolio/node-express1.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/laravel8-clean-architecture",
+      "image": "/assets/img/portofolio/laravel-design-pattern.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/codeiginter4-api-restful",
+      "image": "/assets/img/portofolio/codeigniter.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/example-api-bun-elysia",
+      "image": "/assets/img/portofolio/bun-elysia.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/example-api-nestjs",
+      "image": "/assets/img/portofolio/node-nest.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/example-api-bun-hono",
+      "image": "/assets/img/portofolio/bun-hono.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/belajar-spring-dasar",
+      "image": "/assets/img/portofolio/springboot.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/exampleapidotnet9",
+      "image": "/assets/img/portofolio/dotnet-core.PNG",
+      "alt": "Portfolio image"
+    },
+    {
+      "link": "https://gitlab.com/code-research1/laravel12-api-restful",
+      "image": "/assets/img/portofolio/laravel.PNG",
+      "alt": "Portfolio image"
+    }
+]
+  

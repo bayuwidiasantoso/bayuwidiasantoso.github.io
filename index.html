@@ -17,12 +17,12 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@tailwindmade" />
     <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="preload" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link as="style" href="/assets/styles/css21.css" rel="preload" />
+    <link href="/assets/styles/css2.css" rel="stylesheet" />
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
     <link crossorigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
-    <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="/assets/js/cdn.min1.js"></script>
+    <script defer src="/assets/js/cdn.min.js"></script>
   </head>
   <body :class="{ 'overflow-hidden max-h-screen': mobileMenu }" class="relative" x-data="{ mobileMenu: false }">
     <div id="main" class="relative">
@@ -153,56 +153,16 @@
               </div>
             </div>
           </div>
+
+          <!--LAYER SERVICE GRID-->
           <div class="container py-16 md:py-20" id="services">
             <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"> Here are my strong suits </h2>
-            <!-- <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"> 01000010 01100001 01111001 01110101 </h3> -->
-            <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-              <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                  <div class="hidden group-hover:block">
-                    <img src="/assets/img/icon-graphics-white.svg" alt="Graphic Design icon" />
-                  </div>
-                  <div class="block group-hover:hidden">
-                    <img src="/assets/img/icon-graphics-black.svg" alt="Graphic Design icon" />
-                  </div>
-                </div>
-                <div class="text-center">
-                  <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"> WEB DEVELOPMENT </h3>
-                  <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base"> Build a web-based application using <b>PHP</b> with the Laravel or CodeIgniter framework. </p>
-                </div>
-              </div>
-              <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                  <div class="hidden group-hover:block">
-                    <img src="/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" />
-                  </div>
-                  <div class="block group-hover:hidden">
-                    <img src="/assets/img/icon-mobile-black.svg" alt="Mobile Application icon" />
-                  </div>
-                </div>
-                <div class="text-center">
-                  <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"> Mobile Development </h3>
-                  <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base"> Build native mobile applications using the <b>Java Mobile</b> platform and the native Java programming language. </p>
-                </div>
-              </div>
-              <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-                <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                  <div class="hidden group-hover:block">
-                    <img src="/assets/img/icon-development-white.svg" alt="development icon" />
-                  </div>
-                  <div class="block group-hover:hidden">
-                    <img src="/assets/img/icon-development-black.svg" alt="development icon" />
-                  </div>
-                </div>
-                <div class="text-center">
-                  <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl"> Restful API </h3>
-                  <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base"> Developing RESTful APIs using frameworks such as <b>Lumen, Golang, NodeJs, .NET, Python, and Spring Boot</b> to handle data on the frontend side. </p>
-                </div>
-              </div>
+            <div id="serviceGrid" class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
+
             </div>
           </div>
 
-          
+          <!--LAYER EXPERIENCE GRID-->
           <div class="container py-16 md:py-20" id="work">
             <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"> Personal experience </h2>
             <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"> Here's what I've been doing in the field of IT </h3>
@@ -348,95 +308,25 @@
             </div>
           </div>
 
+          <!--LAYER PORTFOLIO GRID-->
           <div class="container py-16 md:py-20" id="portfolio">
             <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"> See out my work </h2>
             <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"> Here's what I have done with the past </h3>
-            <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-3">
-              <a href="https://gitlab.com/code-research1/go-fiber-clean-architecture" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/go-fiber.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/go-gin-clean-architecture" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/go-gin.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/example-api-nodejs" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/node-typescript.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/lumen10-api-restful" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/lumen.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/example-api-flask" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/python-flask.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/example-api-django" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/python-django.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/example-api-express" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/node-express1.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/laravel8-clean-architecture" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/laravel-design-pattern.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/codeiginter4-api-restful" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/codeigniter.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/example-api-bun-elysia" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/bun-elysia.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/example-api-nestjs" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/node-nest.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/example-api-bun-hono" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/bun-hono.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/belajar-spring-dasar" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/springboot.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/exampleapidotnet9" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/dotnet-core.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
-              <a href="https://gitlab.com/code-research1/laravel12-api-restful" target="_blank" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-                <img src="/assets/img/portofolio/laravel.PNG" class="w-full shadow" alt="portfolio image" />
-              </a>
+            <div id="portfolioGrid" class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-3">
+            
             </div>
           </div>
 
+          <!--LAYER ARTICLE GRID-->
           <div class="bg-grey-50" id="blog">
             <div class="container py-16 md:py-20">
               <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"> I also like to write </h2>
-              <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
-                <a href="/assets/img/document/node expressjs kafka.pdf" target="_blank" class="shadow">
-                  <div style="background-image: url(/assets/img/write/kafka-node.PNG)" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                    <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                    <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read More</span>
-                  </div>
-                  <div class="bg-white py-6 px-5 xl:py-8">
-                    <span class="block font-body text-lg font-semibold text-black">What is Apache Kafka?</span>
-                    <span class="block pt-2 font-body text-grey-20">Apache Kafka is a distributed streaming platform that can process data streams in real time...</span>
-                  </div>
-                </a>
-                <a href="https://gitlab.com/code-research1/rabbitmq/go-gin-rabbitmq" target="_blank" class="shadow">
-                  <div style="background-image: url(/assets/img/write/rabbitmq-golang.PNG)" target="_blank" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                    <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                    <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Download</span>
-                  </div>
-                  <div class="bg-white py-6 px-5 xl:py-8">
-                    <span class="block font-body text-lg font-semibold text-black">Message Broker</span>
-                    <span class="block pt-2 font-body text-grey-20">RabbitMQ is messaging middleware software that functions to send and receive messages...</span>
-                  </div>
-                </a>
-                <a href="/assets/img/document/go gin kafka.pdf" class="shadow">
-                  <div style="background-image: url(/assets/img/write/kafka-golang.PNG)" target="_blank" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                    <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                    <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read More</span>
-                  </div>
-                  <div class="bg-white py-6 px-5 xl:py-8">
-                    <span class="block font-body text-lg font-semibold text-black">Golang X Kafka</span>
-                    <span class="block pt-2 font-body text-grey-20">In this tutorial, we will be introduced to Kafka, which acts as a message broker. Kafka and Zookeeper will run.....</span>
-                  </div>
-                </a>
+              <div id="articleGrid" class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+                
               </div>
             </div>
           </div>
+
           <div class="container py-16 md:py-20" id="contact">
             <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"> Contact ME </h2>
             
@@ -467,7 +357,7 @@
         </div>
         <div class="bg-primary">
           <div class="container flex flex-col justify-between py-6 sm:flex-row">
-            <p class="text-center font-body text-white md:text-left"> © Copyright 2025 - Build with by <b>bayuwidiasantoso</b> • Template by <a href="https://redpixelthemes.gumroad.com/l/twm-atom"><b>ATOM</b></a></p>
+            <p class="text-center font-body text-white md:text-left"> © Copyright 2025 - Build with by <b>bayuwidiasantoso</b> • Template by <a href="https://redpixelthemes.gumroad.com/l/twm-atom" target="_blank"><b>ATOM</b></a></p>
             
           </div>
         </div>
