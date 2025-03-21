@@ -1,6 +1,6 @@
 [
   {
-    "link": "/assets/img/document/node expressjs kafka.pdf",
+    "link": "../assets/img/document/node expressjs kafka.pdf",
     "target": "_blank",
     "bgImage": "/assets/img/write/kafka-node.PNG",
     "buttonText": "Read More",
@@ -16,11 +16,37 @@
     "description": "RabbitMQ is messaging middleware software that functions to send and receive messages..."
   },
   {
-    "link": "/assets/img/document/go gin kafka.pdf",
-    "target": "",
+    "link": "../assets/img/document/go gin kafka.pdf",
+    "target": "_blank",
     "bgImage": "/assets/img/write/kafka-golang.PNG",
     "buttonText": "Read More",
     "title": "Golang X Kafka",
     "description": "In this tutorial, we will be introduced to Kafka, which acts as a message broker. Kafka and Zookeeper will run....."
+  },
+  {
+    "link": "../assets/img/document/docker rust-rocket.pdf",
+    "target": "_blank",
+    "bgImage": "/assets/img/write/docker-rocket.PNG",
+    "buttonText": "Read More",
+    "title": "Hello World RUST on Docker",
+    "description": "I will share how to create a basic 'Hello World' implementation using the RUST Framework Rocket....."
+  },
+  {
+    "link": "../assets/img/document/fiber elk.pdf",
+    "target": "_blank",
+    "bgImage": "/assets/img/write/elk-golang.PNG",
+    "buttonText": "Read More",
+    "title": "Api Monitoring Logs with ELK Stack",
+    "description": "In this tutorial, we will be introduced to Elasticsearch, Kibana, and Logstash using Docker Compos....."
+  },
+  {
+    "link": "../assets/img/document/prometehus lumen.pdf",
+    "target": "_blank",
+    "bgImage": "/assets/img/write/grafana-lumen.PNG",
+    "buttonText": "Read More",
+    "title": "Api Monitoring on Grafna & Prometheus",
+    "description": "I will share how to perform basic monitoring of the applications or APIs we build using Prometheus and Grafana with the Laravel Lumen framework....."
   }
+  
+  
 ]
