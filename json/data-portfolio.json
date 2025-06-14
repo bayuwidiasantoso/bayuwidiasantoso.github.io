@@ -73,6 +73,11 @@
       "link": "https://gitlab.com/code-research1/laravel12-api-restful",
       "image": "/assets/img/portofolio/laravel.PNG",
       "alt": "Portfolio image"
+    }, 
+    {
+      "link": "https://gitlab.com/code-research1/example-api-fastify",
+      "image": "/assets/img/portofolio/node-fastify.PNG",
+      "alt": "Portfolio image"
     }
 ]
   
